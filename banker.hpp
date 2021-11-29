@@ -108,13 +108,6 @@ class Banker{
             std::cout << std::endl;
     }
 
-    void addMultArr (int output[procNum][resNum],int mat[procNum][resNum],int rix[procNum][resNum]){
-        for(int i = 0; i < procNum; ++i){
-            for(int j = 0; j < resNum; ++j){
-                output[i][j]=mat[i][j] + rix[i][j];
-            }
-        }
-    }
     void calculateNeed (int output[procNum][resNum],int mat[procNum][resNum],int rix[procNum][resNum]){
         for(int i = 0; i < procNum; ++i){
             for(int j = 0; j < resNum; ++j){
