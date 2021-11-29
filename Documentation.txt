@@ -1,0 +1,17 @@
+DOCUMENTATION
+
+This program is implementing the Baker's Algorithm in C++
+
+I used a cpp and an hpp file as well as using an input file to take in the allocation, max, and availiable matrices. 
+Also there is a function used to calculate the Need matrix to make the Banker's Algortihm work.
+
+There is a print function mainly for debugging, but also to show off each matrix.
+
+I used a class called Banker in order to implement the Banker's Algorithm.
+The constructor used takes in an ifstream to create the aforementioned matrices. 
+
+I used a number of arrays in the actual algorithm to keep track of everything.
+
+The variables resNum and procNum correspond to the process number and the resource number.
+The algorithm can only currently take in a matrix that is 5X3, but this can be changed if the previously mentioned variables are changed.
+No dynamic allocation for this program.
